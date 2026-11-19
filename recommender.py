@@ -8,7 +8,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 # 1. Ngarkimi i dataset-it
-movies = pd.read_csv("data/tmdb_5000_movies.csv")
+movies = pd.read_csv("tmdb_5000_movies.csv")
 
 
 # 2. Funksionet për nxjerrjen e emrave nga genres dhe keywords
